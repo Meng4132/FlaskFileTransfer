@@ -1,5 +1,6 @@
-# Project Name: Flask File Transfer
-# License: [MIT License](LICENSE)
+Project Name: Flask File Transfer
+License: [MIT License](LICENSE)
+
 ## Description
 This is a lightweight file transfer tool. After installing `flask`, you can start server and visit it through your browser.
 However, this program may ONLY be applicable for simple LAN(Local Area Network) file transfer. and is NOT suitable for large-scale file transfers involving a large number of users.
@@ -37,7 +38,8 @@ python3 flask_transfer.py
 ```
 
 ## Structure
-`FileTransfer/
+```txt
+FileTransfer/
 ├── .gitignore
 ├── flask_transfer.py
 ├── requirements.txt
@@ -50,6 +52,6 @@ python3 flask_transfer.py
 ├── templates/
 │   └── index.html
 └── uploads/ # ->  Created during the first run. Uploaded files will be here.
-
+```
 ## License
 This project is licensed under the MIT License - see the [MIT License](LICENSE) file for details.
